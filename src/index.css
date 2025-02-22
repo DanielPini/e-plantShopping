@@ -1,0 +1,12 @@
+.content {
+  padding: 20px;
+  display: flex;
+  & h1 {
+    overflow: visible;
+    transform: unset;
+  }
+}
+.landing_content {
+  height: 400px;
+  min-width: 300px;
+}

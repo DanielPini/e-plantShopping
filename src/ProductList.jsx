@@ -304,7 +304,8 @@ function ProductList() {
     <div>
       <div
         className="navbar"
-        style={styleObj}>
+        // style={styleObj}
+      >
         <div className="tag">
           <div className="luxury">
             <img
@@ -315,8 +316,8 @@ function ProductList() {
               href="/"
               style={{ textDecoration: "none" }}>
               <div>
-                <h3 style={{ color: "white" }}>Paradise Nursery</h3>
-                <i style={{ color: "white" }}>Where Green Meets Serenity</i>
+                <h3 style={{ color: "white" }}>The Ivy League</h3>
+                <i style={{ color: "white" }}>Because the Best is Better!</i>
               </div>
             </a>
           </div>
@@ -327,6 +328,7 @@ function ProductList() {
             <a
               href="#"
               onClick={(e) => handlePlantsClick(e)}
+              className="plants-heading"
               style={styleA}>
               Plants
             </a>
