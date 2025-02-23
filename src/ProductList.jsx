@@ -302,10 +302,7 @@ function ProductList() {
   };
   return (
     <div>
-      <div
-        className="navbar"
-        // style={styleObj}
-      >
+      <div className="navbar">
         <div className="tag">
           <div className="luxury">
             <img
@@ -313,7 +310,7 @@ function ProductList() {
               alt=""
             />
             <a
-              href="/"
+              href="/e-plantShopping/"
               style={{ textDecoration: "none" }}>
               <div>
                 <h3 style={{ color: "white" }}>The Ivy League</h3>
